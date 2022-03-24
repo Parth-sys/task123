@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link  rel="stylesheet" href="fish.css">
+    
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+    
+    
+    
+    <div class="Navbar">
+      <div class="Navbar__Link Navbar__Link-brand"   style="font-style: italic; font-family: 'Times New Roman', Times, serif; font-size: medium;">
+        <img src="https://cdn-icons-png.flaticon.com/512/616/616430.png"style="width: 33px;"> Kitty
+      </div>
+      <div class="Navbar__Link Navbar__Link-toggle" >
+       <i class="bi bi-list"></i>
+      </div>
+      <nav class="Navbar__Items">
+        <div class="Navbar__Link" style="margin-left:20px;">
+       <a href="_blank" class="link" >   Home </a>
+        </div>
+        <div class="Navbar__Link">
+         <a href="_blank" class="link"  > CatWatch </a>
+        </div>
+        <div class="Navbar__Link">
+          <a href="_blank" class="link"> Cat Finder</a>
+        </div>
+      </nav>
+      <nav class="Navbar__Items Navbar__Items--right">
+        <div class="Navbar__Link" >
+        
+      <a href="_blank"class="link" >  About us</a>
+       
+      </div>
+        <div class="Navbar__Link">
+         <a href="#home " class="link"> Locations </a>
+
+        </div>
+      </nav>
+    </div>
+    
+    
+    <div class="container" style="display: flex; margin: 30px; justify-content: center;">
+      
+      <label style="margin:5px; font-size: larger;  "  >Find Cat </label>
+      <input  type="text" placeholder="Search"  style="width: 200px; height: 40px;" id="Fname" >
+      <button  onclick="cat()" style="margin: 10px;padding: height;">Search</button>
+      
+    </div>
+    
+    
+    
+
+
+
+    
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: rgb(245, 230, 230);" >
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="https://ychef.files.bbci.co.uk/976x549/p07ryyyj.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src= "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_39/3021711/190923-cat-pet-stock-cs-1052a.jpg"    class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://allaboutcats.com/wp-content/uploads/2021/10/cat-love.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    
+    
+    <div class="home"  >
+      <div class="lable">
+      <h2>  Home page</h2>
+
+      </div>
+   <hr>
+   <div  class="image">
+      <img    id="im"> 
+     </div>
+    </div>
+    
+    
+    <script src="nav.js"></script>
+  </body>
+  </html>
